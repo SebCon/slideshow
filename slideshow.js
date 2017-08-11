@@ -55,20 +55,6 @@ var Slideshow = function(id, pictures, time) {
 		if (element) {
 			element.className = 'fadeOut';
 			element.style.opacity = '0';
-
-	/*
-		  var op = 1;  // initial opacity
-			element.style.opacity = op;
-		  var timer = setInterval(function () {
-				if (op <= 0){
-				    clearInterval(timer);
-				    //element.style.visibility = 'hidden';
-				}
-				element.style.opacity = op;
-				//element.style.filter = 'alpha(opacity=' + (op * 100) + ")";
-				op -= 0.05;
-			}, 10);
-			*/
 		}
 	};
 
@@ -79,20 +65,6 @@ var Slideshow = function(id, pictures, time) {
 		if (element) {
 			element.className = 'fadeIn';
 			element.style.opacity = '1';
-
-	/*
-		  var op = 0.1;  // initial opacity
-			element.style.opacity = 0;
-		    //element.style.visibility = 'visible';
-		  var timer = setInterval(function () {
-				if (op >= 1){
-				    clearInterval(timer);
-				}
-				element.style.opacity = op;
-				//element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-				op += 0.05;
-			}, 10);
-			*/
 		}
 	};
 
