@@ -20,8 +20,8 @@ Download the two files: slideshow.css and slideshow.js and link them in your pro
 ```
 or without downloading files like
 ```html
-<link rel="stylesheet" href="https://raw.githubusercontent.com/SebCon/slideshow/master/slideshow.css">
-<script src="https://raw.githubusercontent.com/SebCon/slideshow/master/slideshow.js"></script>
+<link rel="stylesheet" href="https://rawgit.com/SebCon/slideshow/master/slideshow.css">
+<script src="https://rawgit.com/SebCon/slideshow/master/slideshow.js"></script>
 ```
 
 
