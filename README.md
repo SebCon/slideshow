@@ -14,8 +14,15 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 Download the two files: slideshow.css and slideshow.js and link them in your project like:
-* <link rel="stylesheet" href="slideshow.css">
-* <script src="slideshow.js"></script>
+```html
+<link rel="stylesheet" href="slideshow.css">
+<script src="slideshow.js"></script>
+```
+or without downloading files like
+```html
+<link rel="stylesheet" href="https://raw.githubusercontent.com/SebCon/slideshow/master/slideshow.css">
+<script src="https://raw.githubusercontent.com/SebCon/slideshow/master/slideshow.js"></script>
+```
 
 
 ### Starting slideshow
