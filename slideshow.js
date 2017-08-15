@@ -11,7 +11,7 @@
  * @version 1.1 - 20. July 2017
  * @see http://www.github.com/sebcon
  * @license Available under MIT license <https://mths.be/mit>
- * @fileoverview create Slideshow,
+ * @fileoverview create Slideshow, insert images in DOM tree if there doesnt exist it, autoplay function
  */
 
 
@@ -20,8 +20,8 @@
 *
 *		@constructor
 *		@param {string}	id - id of the wrapper element
-*		@param {object} [arraySize = Unlimited] - array length
-*		@param {number} [time = 2000] - time between transistions
+*		@param {Picture} [arraySize = Unlimited] - array length
+*		@param {time} [time = 2000] - time between transistions
 **/
 
 
@@ -184,7 +184,17 @@ var Slideshow = function(id, pictures, time) {
 };
 
 
+/**
+*		@class Picture
+*
+*		@constructor
+*		@type {{src : String, title : String}} Picture
 
+*		@param {string}	src - image source
+*		@param {string} title - image title and alt tag
+
+*		@return {Picture}
+**/
 var Picture = function(src, title) {
 	return {src : src, title : title};
 };
