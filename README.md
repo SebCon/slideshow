@@ -14,20 +14,30 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 Download the two files: slideshow.css and slideshow.js and link them in your project like:
-<link rel="stylesheet" href="slideshow.css">
-<script src="slideshow.js"></script>
+* <link rel="stylesheet" href="slideshow.css">
+* <script src="slideshow.js"></script>
 
 
 ### Starting slideshow
 
 #### creating picture array
-var pictures = [	new Picture('hochzeitsauto-jaguar-hamburg-lueneburg-mieten-121404.jpg', 'here is my alt and title Text'), new Picture('hochzeitsauto-jaguar-hamburg-lueneburg-mieten-5749.jpg', 'Hochzeitsauto Hamburg Jaguar XKR X100 mieten'),  new Picture('hochzeitsauto-jaguar-hamburg-lueneburg-mieten-5777.jpg', 'Hochzeitsauto Hamburg Lüneburg Jaguar XJ308 mieten'),.... ];
+
+```javascript
+var pictures = [	new Picture('pic1.jpg', 'here is my alt and title Text'), 
+			new Picture('pic2.jpg', 'here is my alt and title Text'),  
+			new Picture('pic3.jpg', 'here is another alt ant title Text'),
+		.... ];
+```
 									 
 #### create instance
+```javascript
 var slider = new Slideshow('slideshow', pictures, 4000);
+```
 
 #### start slideshow
+```javascript
 slider.autoplay();
+```
 
 
 ## Authors
